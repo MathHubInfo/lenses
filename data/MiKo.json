@@ -1,0 +1,63 @@
+{
+    "name": "MiKo",
+    "author": "Michael Kohlhase",
+    "date": "2019-05-30",
+    "created": "2019-05-30",
+    "description": "The personal MathHub favorites of Michael Kohlhase",
+    "teaser": "MiKo's all-time MathHub favorites",
+    "paths": [
+	{
+	    "prefix": "https://mathhub.info",
+	    "note": "MathHub should be visible",
+	    "weight": 1.0,
+	    "paths": [
+		{
+		    "path": "smlgom",
+		    "note": "SMGloM is my baby, so I recommend it",
+		    "nopaths": ["theresas-playground", "chevahir"],  
+		    "weight": 1.0
+		},
+		{
+		    "path": "MMT",
+		    "weight": 1.0,
+		    "paths": [
+			{
+			    "path": "urtheories"
+			},
+			{
+			    "path": "examples"
+			},
+			{
+			    "path": "LFX"
+			}
+		    ]
+		},
+		{
+		    "path": "MitM",
+		    "note": "The Math-in-the-Middle Ontology is important",
+		    "paths", [
+			{
+			    "path": "Foundation"
+			},
+			{
+			    "path": "smglom",
+			    "note": "this should really be called `core`"
+			},
+			{
+			    "path": "models"
+			},
+			{
+			    "path": "almanac",
+			    "paths": [
+				{
+				    "path": "supremecourt",
+				    "weight": 0.6
+				}
+			    ]
+			}
+		    ]
+		}
+	    ]
+	}
+    ]
+}
