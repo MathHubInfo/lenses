@@ -3,6 +3,7 @@ We give a couple of mock-up examples for lenses.
 Here is the meaning of the fields:
 * `name`: the name/identifier of the lens
 * `author`: who did it
+* `badg`: the badge to be used in the MathHub FrontEnd
 * `created`, `date`: first/last edit
 * `description`, `teaser`: a short/one-line description of the purpose and "charter" of the lens
 * `paths`: a tree of path descriptions that are approved in this lens
