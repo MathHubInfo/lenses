@@ -1,0 +1,46 @@
+{
+    "name": "educational",
+    "author": "Michael Kohlhase",
+    "date": "2019-05-31",
+    "created": "2019-05-31",
+    "description": "Educational Materials on MathHub",
+    "teaser": "Educational Materials on MathHub",
+    "paths": [
+	{
+	    "prefix": "https://mathhub.info",
+	    "paths": [
+		{
+		    "path": "MiKoMH",
+		    "note": "Michael Kohlhase's courses.",
+		    "nopaths": ["talks"],  
+		    "weight": 1.0
+		},
+		{
+		    "path": "MiKoCourses",
+		    "note": "Michael Kohlhase's exams and homework assignments.",
+		    "weight": 1.0
+		},
+		{
+		    "path": "MiKoProblems",
+		    "note": "Michael Kohlhase's problem database.",
+		    "weight": 1.0
+		},
+		{
+		    "path": "HelloWorld",
+		    "note": "Very carefully made HelloWorld exampkles",
+		    "weight": 1.0,
+		    "paths": [
+			{
+			    "path": "coursematerials",
+			    "weight": 1.0
+			}
+			{
+			    "path": "hwexam",
+			    "weight": 1.0
+			}
+		    ]
+		}
+	    ]
+	}
+    ]
+}
